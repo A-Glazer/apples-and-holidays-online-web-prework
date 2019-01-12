@@ -69,7 +69,7 @@ def all_supplies_in_holidays(holiday_hash)
 
 holiday_supplies.collect do |season, holiday|
   new_season = season.to_s.capitalize!
-  puts new_season << ":"
+  new_season = new_season << ":"
 end
 
 
