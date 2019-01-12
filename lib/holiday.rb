@@ -75,14 +75,6 @@ holiday_supplies.collect do |season, holiday|
    "#{new_season} #{holiday} #{item}"
 end
 
-
-  #holiday.collect do |holiday, item|
-
-  #  puts "#{season}:"
-  #    "#{holiday} #{item}"
-
-
-
 end
 
 
