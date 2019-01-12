@@ -71,7 +71,7 @@ holiday_supplies.each do |season, holiday|
 
 
 
-  
+
     season.to_s.split.capitalize!.join(" ")
   holiday.collect do |holiday, item|
 
