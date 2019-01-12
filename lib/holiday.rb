@@ -68,14 +68,15 @@ def all_supplies_in_holidays(holiday_hash)
   # etc.
 
 holiday_supplies.each do |season, holiday|
-  season.to_s
+    season.to_s.capitalize!.join(" ")
   holiday.collect do |holiday, item|
+  
     puts "#{season}:"
       "#{holiday} #{item}"
     end
     holiday.capitalize
   end
-
+binding.pry
 
 
 
