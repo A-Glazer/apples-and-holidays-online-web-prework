@@ -76,7 +76,7 @@ holiday_supplies.each {|season, holiday| puts "#{season}"}
   #    "#{holiday} #{item}"
 
       binding.pry
-    
+
 
   end
 
