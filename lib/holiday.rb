@@ -69,9 +69,8 @@ def all_supplies_in_holidays(holiday_hash)
 
 holiday_supplies.collect do |season, holiday|
   new_season = season.to_s.capitalize!
-  new_season += ":"
-  holiday.collect do |holiday, item|
-   "#{new_season} #{holiday} #{item}"
+  holiday.each do |holiday, item|
+   "#{new_season}: #{holiday} #{item}"
  end
  end
 end
